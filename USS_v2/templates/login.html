@@ -1,0 +1,17 @@
+<html>
+<head>
+<link rel="stylesheet" href="/static/css/global.css">
+</head>
+<body>
+    <script src="/static/js/auth.js"></script>
+<div class="card">
+<h2>Login</h2>
+<form onsubmit="loginUser(event)" action="/login" method="post">
+<input id="username" name="username" placeholder="Username">
+<input id="password" name="password" type="password" placeholder="Password">
+<button>Login</button>
+</form>
+<a href="/register">Register</a>
+</div>
+</body>
+</html>

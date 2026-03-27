@@ -1,0 +1,27 @@
+<html>
+<head>
+<link rel="stylesheet" href="/static/css/dashboard.css">
+<script src="/static/js/dashboard.js"></script>
+</head>
+<body>
+
+<div class="container">
+<h2>USS Dashboard</h2>
+
+<textarea id="data"></textarea>
+
+<label>
+<input type="checkbox" id="secure"> Secure Mode
+</label>
+
+<button onclick="sendData()">Send</button>
+
+<pre id="output"></pre>
+
+<button onclick="loadLogs()">Show Logs</button>
+<pre id="logs"></pre>
+
+</div>
+
+</body>
+</html>
